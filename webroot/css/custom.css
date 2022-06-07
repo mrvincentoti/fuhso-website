@@ -1,0 +1,178 @@
+.logo-text {
+    color: #320159 !important;
+    font-weight: bold;
+}
+
+.list-ol {
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+}
+
+.list-ol {
+    display: block !important;
+    list-style-type: decimal !important;
+    margin-block-start: 1em !important;
+    margin-block-end: 1em !important;
+    margin-inline-start: 0px !important;
+    margin-inline-end: 0px !important;
+    padding-inline-start: 40px !important;
+}
+
+.list-ol li {
+    padding: 10px !important;
+}
+
+.error-message {
+    color: red !important;
+}
+
+.step.active {
+    color: #e9dd76;
+}
+
+.step {
+    background-color: #e9dd76 !important;
+}
+
+.success-img img {
+    width: 100px !important;
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+#upload {
+    opacity: 0;
+}
+
+#upload-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.image-area {
+    border: 2px dashed rgba(255, 255, 255, 0.7);
+    padding: 1rem;
+    position: relative;
+}
+
+.image-area::before {
+    content: "Uploaded image result";
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.image-area img {
+    z-index: 2;
+    position: relative;
+}
+
+.btn-fuhso {
+    color: #ffffff;
+    background-color: #302159;
+    border-color: #302159;
+}
+
+.teachers-2 .teachers-2-singel:hover {
+    background-color: #ffffff;
+    -webkit-box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+    box-shadow: 0 0 1.25rem rgb(108 118 134 / 10%);
+    position: relative;
+    z-index: 1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.teachers-2 .teachers-2-singel:hover .cont a h5 {
+    font-size: 18px;
+    color: #e9dd76;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.teachers-right .nav .nav-item a {
+    padding: 20px 0;
+    background-color: #302159;
+    color: #fff;
+    font-weight: 15;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.ticker-wrap {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 3rem;
+    background-color: #e9dd76;
+    box-sizing: content-box;
+}
+
+.ticker-wrap .ticker {
+    display: inline-block;
+    height: 3rem;
+    line-height: 3rem;
+    white-space: nowrap;
+    padding-right: 100%;
+    box-sizing: content-box;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: ticker;
+    animation-name: ticker;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+}
+
+span.question h2{
+    font-size: 14px !important;
+}
+
+.ticker-wrap .ticker__item {
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 1rem;
+    color: #302159;
+}
+
+@-webkit-keyframes ticker {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+@keyframes ticker {
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
